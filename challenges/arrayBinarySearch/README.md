@@ -18,7 +18,7 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 * if its the opposite, then you must increase the low index by mid index value +1
 
-if the value of the array at the mid index equals the value of the searched number, then return that index.
+* if the value of the array at the mid index equals the value of the searched number, then return that index.
 
 ## Solution
-![Binary Search](../../assets/arrayBinarySearch.jpg)
+![Binary Search](../../assets/arrayBinary.jpg)
