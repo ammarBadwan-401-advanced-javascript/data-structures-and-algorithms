@@ -15,5 +15,7 @@ Write a function called `insertShiftArray` which takes in an array and the value
 * I added the new number value to the new array.
 * Used a new for loop to add the remaining values from the original array to the new array then return the new array.
 
+* Efficiency: Big O = O(n) "Linear"
+
 ## Solution
 ![Shift Array](../../assets/array-shift.jpg)
