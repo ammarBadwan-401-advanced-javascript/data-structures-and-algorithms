@@ -57,7 +57,7 @@ class LinkedList {
       currentNode = currentNode.next;
     }
     
-    listString += ` { ${currentNode.value} } -> NULL`;
+    listString += ` { ${currentNode.value} } -> ${currentNode.next}`;
     return listString;
   }
 }
