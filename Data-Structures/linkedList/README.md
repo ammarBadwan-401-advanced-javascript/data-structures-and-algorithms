@@ -2,6 +2,8 @@
 
 * Singly linked lists are nodes that contain 2 types of information, their value and a pointer to the next node.
 
+* [GitHub Actions](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/actions)
+
 ## Challenge
 1- Create and instantiate an empty Linked List
 
