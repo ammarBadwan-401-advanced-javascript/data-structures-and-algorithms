@@ -20,5 +20,7 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 * if the value of the array at the mid index equals the value of the searched number, then return that index.
 
+* Efficiency: Big O: O(log n)
+
 ## Solution
 ![Binary Search](../../assets/arrayBinary.jpg)
