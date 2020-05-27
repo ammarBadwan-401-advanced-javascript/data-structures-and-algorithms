@@ -1,5 +1,7 @@
 # Reverse an Array
 
+* [GitHub Actions](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/actions)
+
 ## Summary
 
 Using Binary Search algorithm, make a function that takes in a sorted array and a number and gives you the index.
@@ -19,6 +21,8 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 * if its the opposite, then you must increase the low index by mid index value +1
 
 * if the value of the array at the mid index equals the value of the searched number, then return that index.
+
+* Efficiency: Big O: O(log n)
 
 ## Solution
 ![Binary Search](../../assets/arrayBinary.jpg)
