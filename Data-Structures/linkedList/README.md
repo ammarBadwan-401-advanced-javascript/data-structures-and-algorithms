@@ -30,3 +30,6 @@
 2- `include(value)`: Checks if a value exists in a node in the linked list, if it does it returns true, if not it returns false.
 
 3- `toString()`: Types all the node values inside the linked list as a string with an arrow between them like `{ a } -> { b } -> null`
+
+* Whiteboard: 
+![Singly linked list](../../assets/singlyLinkedList.jpg)

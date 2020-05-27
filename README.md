@@ -6,8 +6,10 @@
 
 ## ***List of Code Challenges***
 
-* [Reverse-Array](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/arrayReverse)
+* CC1:- [Reverse-Array](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/arrayReverse)
 
-* [Shift Array](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/arrayShift)
+* CC2:- [Shift Array](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/arrayShift)
 
-* [Binary Search Array](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/arrayBinarySearch)
+* CC3:- [Binary Search Array](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/arrayBinarySearch)
+
+* CC5:- [Singly Linked List](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/Data-Structures/linkedList)
