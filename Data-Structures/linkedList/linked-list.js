@@ -79,6 +79,12 @@ class LinkedList {
     let newNode = new Node(newVal);
     let currentNode = this.head;
 
+    if(currentNode.value === value){
+      newNode.next = currentNode;
+      this.head = newNode;
+      return this;
+    }
+
     while(currentNode.next.value !== value){
       currentNode = currentNode.next;
     }
@@ -93,8 +99,7 @@ class LinkedList {
       currentNode = currentNode.next;
     }
     // To place the "after" as the next value for the new node
-    let replacedNode = currentNode.next;
-    newNode.next = replacedNode;
+    newNode.next = currentNode.next;
     currentNode.next = newNode;
   }
 
