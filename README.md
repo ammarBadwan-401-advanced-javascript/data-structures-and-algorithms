@@ -13,3 +13,5 @@
 * CC3:- [Binary Search Array](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/arrayBinarySearch)
 
 * CC5:- [Singly Linked List](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/Data-Structures/linkedList)
+
+* CC6:- [Linked List Insertions](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/Data-Structures/linkedList)
