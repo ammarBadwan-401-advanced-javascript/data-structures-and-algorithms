@@ -79,3 +79,38 @@
 
 * Whiteboard: 
 ![Linked List Insertions](../../assets/linkedListInsertions.jpg)
+
+---------------------------------------------------------------------------
+
+## Code Challenge 7: k-th value from the end of a linked list.
+
+* In this code challenge we must make a function that takes the k-th value from the end of a linked list and find the value of that node from the entered k-th value
+
+### Challenge
+
+1- `.kthFromEnd(k)` a method for the Linked List class which takes a number, k, as a parameter and returns the node’s value that is k from the end of the linked list.
+
+
+### Approach and efficiency
+
+* Traverse the linked list with a while loop, adding the value of each node to an outside array.
+
+* Check for exception in the rules of k (if its a negative number, if its not a number etc...) and return an exception if thats the case.
+
+* Reverse the index number so we can take the right value out of the array, we can do that by using this algorithm ` (k - (array.length-1)) * -1`.
+
+* Return the array at the reversed index `arr[reversedIndex]`.
+
+
+* Efficiency: Big O Notation
+
+* `kthFromEnd(k)`: Space: O(n) "linear" , Time: O(n) "linear".
+Because the function only has a while loop with a maximum length of n (depends on how many nodes exists within the linked list) the while loop will iterate a maximum number of n so the Big O Notation is O(n).
+
+
+## API
+
+* `kthFromEnd(k)` : Finds the value of the node that is numbered k from the end of the linked list.
+
+* Whiteboard: 
+![kthFromEnd](../../assets/kthFromEnd.jpg)
