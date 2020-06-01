@@ -103,6 +103,27 @@ class LinkedList {
     currentNode.next = newNode;
   }
 
+  kthFromEnd(k){
+    let currentNode = this.head;
+    if(!currentNode){
+      return 'Linked list is empty.';
+    }
+
+    let linkedArray = [];
+
+    while(currentNode){
+      linkedArray[linkedArray.length] = currentNode.value;
+      currentNode = currentNode.next;
+    }
+
+    if(k>linkedArray.length-1 || k < 0 || k === undefined || typeof k !== 'number'){
+      return 'Exception';
+    }
+
+    let reveresdIndex = (k - (linkedArray.length-1)) * -1;
+    return linkedArray[reveresdIndex];
+  }
+
 }
 
 module.exports = LinkedList;
