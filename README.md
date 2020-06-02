@@ -17,3 +17,5 @@
 * CC6:- [Linked List Insertions](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/Data-Structures/linkedList)
 
 * CC7:- [K-th value from the end of a linked list](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/Data-Structures/linkedList)
+
+* CC8:- [Merge two linked lists.](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/Data-Structures/linkedList/llMerge)
