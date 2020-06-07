@@ -27,6 +27,4 @@ class PseudoQueue {
   }
 }
 
-let jaja = new PseudoQueue;
-jaja.enqueue(5);
-console.log(jaja);
+module.exports = PseudoQueue;
