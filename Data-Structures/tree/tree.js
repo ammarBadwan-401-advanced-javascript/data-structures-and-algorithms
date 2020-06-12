@@ -57,6 +57,10 @@ class BinarySearchTree {
 
   add(value){
     let newNode = new Node(value);
+    if(!this.root){
+      this.root = new Node(value);
+      return this;
+    }
     let addition = (node) => {
       if(value < node.value){
         if(node.left){
@@ -74,6 +78,7 @@ class BinarySearchTree {
 
   contains(value){
     let answer = false;
+    if(!value || !this.root) return false;
     
     let search = (node) => {
       if(value === node.value){
@@ -94,4 +99,4 @@ class BinarySearchTree {
   }
 }
 
-module.exports = {BinaryTree,BinarySearchTree};
+module.exports = {Node,BinaryTree,BinarySearchTree};
