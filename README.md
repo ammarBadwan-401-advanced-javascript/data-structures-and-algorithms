@@ -24,6 +24,8 @@
 
 * CC11:- [Implement a Queue using two Stacks.](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/Data-Structures/stacksAndQueues/queueWithStacks)
 
+* CC12:- [FIFO Animal Shelter](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/fifoAnimalShelter/)
+
 * CC13:- [ Multi-bracket Validation.](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/multiBracketValidation/)
 
 * CC15:- [Tree](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/Data-Structures/tree/)
