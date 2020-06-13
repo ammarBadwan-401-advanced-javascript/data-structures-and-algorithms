@@ -12,18 +12,32 @@ class PseudoQueue {
       let newValue = new Stack;
       newValue.push(value);
       this.front = newValue.top;
+      this.rear = newValue.top;
       return this.front.value;
-    }
-    // let rearQueue = this.rear;
-    let theQueue = this.front;
-    while(theQueue.next){
-      theQueue = theQueue.next;
     }
     let newValue = new Stack;
     newValue.push(value);
-    theQueue.next = newValue.top;
+    if(!this.rear){
+      this.rear = newValue.top;
+      return this;
+    }
+    this.rear.next = newValue.top;
     this.rear = newValue.top;
-    return this;
+  }
+
+  dequeue(){
+    if (!this.front){
+      return 'Empty Queue';
+    }
+    if (!this.front.next){
+      let value = this.front.value;
+      this.front = null;
+      this.rear = null;
+      return value;
+    }
+    let value = this.front.value;
+    this.front = this.front.next;
+    return value;
   }
 }
 
