@@ -1,5 +1,7 @@
 'use strict';
 
+const Queue = require('../stacksAndQueues/stacks-and-queues').Queue;
+
 class Node {
   constructor(value, left = null, right = null){
     this.value = value;
@@ -47,6 +49,22 @@ class BinaryTree {
     };
     _walk(this.root);
     return results;
+  }
+
+  breadthFirst(){
+    let currentNode = this.root;
+    let theQueue = new Queue;
+    theQueue.enqueue(currentNode);
+    let results = [];
+    while (!theQueue){
+      results[results.length] = theQueue.front.value;
+      theQueue.dequeue();
+      if (currentNode.left){
+        currentNode
+      }
+
+    }
+
   }
 }
 
@@ -99,4 +117,39 @@ class BinarySearchTree {
   }
 }
 
+let nodea = new Node('a');
+let nodeb = new Node('b');
+let nodec = new Node('c');
+let noded = new Node('d');
+let nodee = new Node('e');
+let nodef = new Node('f');
+nodea.left = nodeb;
+nodea.right = nodec;
+nodeb.left = noded;
+nodeb.right = nodee;
+nodec.left = nodef;
+
+
+
+let theTree = new BinaryTree(nodea);
+
+let theQueue = new Queue;
+theQueue.enqueue(theTree.root);
+// console.log(theQueue);
+theQueue.dequeue();
+// console.log(theQueue);
+theQueue.enqueue(theTree.root.left);
+console.log(theQueue);
+theQueue.dequeue();
+console.log(theQueue.isEmpty());
+
+// console.log(theTree);
+// console.log(theTree);
+// let jaja = new Queue;
+// jaja.enqueue(5);
+// jaja.enqueue(4);
+// jaja.enqueue(3);
+// console.log(jaja);
+
 module.exports = {Node,BinaryTree,BinarySearchTree};
+
