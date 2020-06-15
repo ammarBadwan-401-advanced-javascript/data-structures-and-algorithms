@@ -41,4 +41,4 @@ search it will take the entire tree.
 - `contains(value)`: search a tree for a value and returns true if its found, otherwise returns false.
 
 # Whiteboard
-![tree](../../assets/tree.jpg)
+![tree](../../assets/tree2.jpg)
