@@ -74,7 +74,7 @@ class Queue {
 
   peek(){
     if (!this.front){
-      return 'Empty Queue';
+      return null;
     }
     return this.front.value;
   }
