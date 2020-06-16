@@ -32,4 +32,6 @@
 
 * CC16:- [Fizz Buzz Tree](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/fizzBuzzTree/)
 
-* CC16:- [Breadth First Traversal](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/breadthFirst/)
+* CC17:- [Breadth First Traversal](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/breadthFirst/)
+
+* CC18:- [Maximum Value in a Binary Tree](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/Data-Structures/tree)
