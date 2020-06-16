@@ -30,4 +30,4 @@
 2- `dequeueue(pref)`: check if the pref animal is a dog or a cat,if yes, then change the current front value to the front's next value which means deleting the first node.
 
 * Whiteboard: 
-![fifo shelter](../../assets/fifo.jpg)
+![fifo shelter](../../assets/fifo2.jpg)
