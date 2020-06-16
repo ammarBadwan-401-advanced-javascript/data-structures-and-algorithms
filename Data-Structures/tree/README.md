@@ -42,3 +42,28 @@ search it will take the entire tree.
 
 # Whiteboard
 ![tree](../../assets/tree2.jpg)
+
+------------------------------------------------------------------------------
+
+## Code Challenge 18: Maximum Value in a Binary Tree
+
+## Challenge
+
+* Find the maximum value of a tree and return its value.
+
+## Approach & Efficiency
+
+* We will create a recursive method that walks throught the tree the same way preOrder traversal method does, and instead of pushing the values into an array, we will compare the maximum saved result with the current node result, if its higher then we replace it by the node value.
+
+* Efficiency: Big O:
+
+- Big O of time: O(n) "linear": it will take the entire tree and the time it takes depends on how big the tree is.
+
+- Big O of space: O(1) "constant" it will always return a number no matter how many numbers there is.
+
+## API
+
+- `findMaximumValue()`: walks through the entire tree and searches for node values, if the node value is higher then returns that value, keeps searchin until the tree ends and retrieves the maximum value.
+
+# Whiteboard
+![maxvalue](../../assets/maxvalue.jpg)
