@@ -6,7 +6,7 @@
 
 Convert the pseudo code to javascript and detail the process of each step in the algorithm and write it in BLOG.md
 
-[Link to the blog](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/insertionSort/BLOG)
+[Link to the blog](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/insertionSort/BLOG.md)
 
 ## Approach and Efficiency
 
