@@ -37,3 +37,5 @@
 * CC18:- [Maximum Value in a Binary Tree](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/Data-Structures/tree)
 
 * CC19:- [ Odd sum tree.](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/oddSumTree/)
+
+* CC26:- [Insertion Sort](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/insertionSort/)
