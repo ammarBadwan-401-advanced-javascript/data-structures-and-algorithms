@@ -41,3 +41,5 @@
 * CC26:- [Insertion Sort](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/insertionSort/)
 
 * CC27:- [Merge Sort](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/mergeSort/)
+
+* CC28:- [Quick Sort](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/quickSort/)

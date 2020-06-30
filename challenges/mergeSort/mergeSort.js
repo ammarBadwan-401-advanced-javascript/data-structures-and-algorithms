@@ -29,6 +29,18 @@ function merge(left,right,arr){
     k++;
   }
 
+  if (i === left.length) {
+    for (let count = j; count < right.length; count++) {
+      arr[k] = right[count];
+      k++;
+    }
+  } else {
+    for (let count = i; count < left.length; count++) {
+      arr[k] = left[count];
+      k++;
+    }
+  }
+
 
 }
 let jaja = [8,4,23,5,42,16,15,2];
