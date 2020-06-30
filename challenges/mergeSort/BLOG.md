@@ -42,15 +42,12 @@ ALGORITHM Merge(left, right, arr)
 * That was the pseudo code provided, here is my implemented javascript version of it
 
 ```Javascript
-
 function mergeSort(arr){
   let n = arr.length;
   if (n>1){
     let mid = n/2;
     let left = arr.slice(0,mid);
     let right = arr.slice(mid,n);
-    console.log('THIS IS LEFT '+ left)
-    console.log('THIS IS RIGHT '+ right)
 
     mergeSort(left);
     mergeSort(right);
@@ -72,6 +69,18 @@ function merge(left,right,arr){
       j++;
     }
     k++;
+  }
+
+  if (i === left.length) {
+    for (let count = j; count < right.length; count++) {
+      arr[k] = right[count];
+      k++;
+    }
+  } else {
+    for (let count = i; count < left.length; count++) {
+      arr[k] = left[count];
+      k++;
+    }
   }
 }
 ```
