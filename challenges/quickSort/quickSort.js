@@ -13,7 +13,7 @@ function partition(arr,left,right){
   let pivot = arr[right];
   let low = left-1;
   for (let i = left; i<right;i++){
-    if (arr[i] === pivot){
+    if (arr[i] <= pivot){
       low++;
       swap(arr,i,low);
     }
@@ -28,5 +28,5 @@ function swap(arr,i,low){
   arr[i] = arr[low];
   arr[low] = temp;
 }
-let jaja = [8,4,23,42,16,15]
-console.log(quickSort(jaja,4,42));
+let jaja = [8,4,23,42,16,15];
+console.log(quickSort(jaja,0,jaja.length-1));
