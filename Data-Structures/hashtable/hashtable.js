@@ -8,6 +8,9 @@ class Hashmap {
   }
 
   hash(key){
+    if (typeof key !== 'string'){
+      key = key.toString();
+    }
     return key.split('').reduce((acc,val)=>{
       return acc + val.charCodeAt();
     },0)* 599 % this.size;
@@ -26,9 +29,30 @@ class Hashmap {
     let hash = this.hash(key);
     if (!this.map[hash]){
       return null;
-    } else {
-      return this.map[hash].head.value;
     }
+    let result = this.map[hash].values();
+    result.reduce((acc,val)=>{
+      if (val[key]){
+        acc.push(val);
+      }
+      return acc;
+    },[]);
+    return result;
+  }
+
+  contains(key){
+    let hash = this.hash(key);
+    if (!this.map[hash]){
+      return false;
+    }
+    let result = this.map[hash].values();
+    result.reduce((acc,val)=>{
+      if (val[key]){
+        acc.push(val);
+      }
+      return acc;
+    },[]);
+    return result.length > 0 ? true : false;
   }
 }
 
