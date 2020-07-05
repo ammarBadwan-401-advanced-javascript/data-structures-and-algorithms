@@ -45,3 +45,5 @@
 * CC28:- [Quick Sort](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/quickSort/)
 
 * CC30:- [Hashtables](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/Data-Structures/hashtable)
+
+* CC31:- [Repeated Word](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/repeatedWord/)
