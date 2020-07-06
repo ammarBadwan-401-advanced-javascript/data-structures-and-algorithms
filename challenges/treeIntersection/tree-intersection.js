@@ -1,6 +1,6 @@
 'use strict';
 
-const Hashtable = require('../../Data-Structures/hashtable/hashtable');
+const Hashmap = require('../../Data-Structures/hashtable/hashtable');
 
 const BinaryTree = require('../../Data-Structures/tree/tree').BinaryTree;
 
@@ -8,7 +8,7 @@ const Node = require('../../Data-Structures/tree/tree').Node;
 
 function treeIntersection(firstTree, scondTree){
   let result = [];
-  let hash = new Hashtable(1024);
+  let hash = new Hashmap(1024);
   let firstTreeResult = firstTree.preOrder();
   let secondTreeResult = secondTree.preOrder();
   for (let i = 0; i<firstTreeResult.length; i++){
@@ -17,8 +17,8 @@ function treeIntersection(firstTree, scondTree){
 
   for (let q = 0; q<secondTreeResult.length; q++){
     hash.add(secondTreeResult[q],secondTreeResult[q] );
-    let theResult = hash.get(secondTreeResult[q]);
-    if (theResult.length > 1){
+    let hashLength = hash.get(secondTreeResult[q]);
+    if (hashLength.length > 1){
       result.push(secondTreeResult[q]);
     }
   }
