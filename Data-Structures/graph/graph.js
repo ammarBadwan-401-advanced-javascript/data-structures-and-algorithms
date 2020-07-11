@@ -27,9 +27,25 @@ class Graph{
     if(!this._adjacencyList.has(firstNode) || !this._adjacencyList.has(secondNode)){
       console.log('Node does not exist');
     } else {
-      console.log('Node exists');
+      const adjacencies = this._adjacencyList.get(firstNode);
+      adjacencies.push(new Edge(secondNode,weight));
     }
   }
+
+  getNodes(){
+    return this._adjacencyList.entries();
+  }
+
+  getNeighbors(node){
+    if (this._adjacencyList.has(node)){
+      return this._adjacencyList.get(node)[0];
+    }
+  }
+
+  size(){
+    return this._adjacencyList.size;
+  }
+
 }
 
 const graph = new Graph();
