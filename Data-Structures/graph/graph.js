@@ -18,9 +18,9 @@ class Graph{
     this._adjacencyList = new Map();
   }
 
-  addNode(value){
-    this._adjacencyList.set(value,[]);
-    return value;
+  addNode(node){
+    this._adjacencyList.set(node,[]);
+    return node;
   }
 
   addEdge(firstNode, secondNode, weight){
