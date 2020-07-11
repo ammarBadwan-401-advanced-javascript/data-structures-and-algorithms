@@ -36,3 +36,7 @@ Space: O(1) always returns a boolean.
 - `get` hashes the key, then checks if anything exists in that index, if it does then it checks the values inside the linked list that exists there.
 
 - `contains` same as get,except it returns a true if the key exists.
+
+## Whiteboard
+
+![hashtable](../../assets/hashtable.jpg)
