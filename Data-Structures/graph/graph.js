@@ -1,7 +1,6 @@
 'use strict';
 
 const Queue = require('../stacksAndQueues/stacks-and-queues').Queue;
-const LinkedList = require('../linkedList/linked-list');
 
 class Node {
   constructor(value){

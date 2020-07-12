@@ -44,3 +44,30 @@ Time: O(1): It will always take the same time.
 
 ## Whiteboard
 ![graph](../../assets/graph.jpg)
+
+--------------------------------------------------------------------------------
+
+## Breadth First Graphs
+
+### Challenge
+
+* Create a method that traverses the graph based on breadth-first traversal method that accepts a starting node.
+
+### Approach & Efficiency
+
+1. Create a function that accepts a node.
+2. Create a queue and add the starting node to it.
+3. Define an empty array to show all visisted arrays and add the first node to it.
+4. Use a while loop to traverse through the queue and add edges to it.
+5. Get the neighbors of the node.
+6. If the new node exists inside the array, ignore it, if not add it to queue.
+7. Return the array.
+
+### Big O 
+
+Space: O(n): Because it will create a queue depending on how many edges there is.
+
+Time: O(n2 ): It has nested for loops so it will take n2.
+
+### Whiteboard
+![graphbf](../../assets/graphbf.jpg)
