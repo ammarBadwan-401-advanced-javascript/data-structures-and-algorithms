@@ -50,4 +50,6 @@
 
 * CC32:- [Tree Intersection](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/treeIntersection/)
 
-* CC32:- [Left Join](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/leftJoin/)
+* CC33:- [Left Join](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/leftJoin/)
+
+* CC35:- [Graphs](https://github.com/ammarBadwan-401-advanced-javascript/data-structures-and-algorithms/tree/master/Data-Structures/graph)
