@@ -9,16 +9,11 @@ function getEdges(graph,arr){
   let airports = graph.getNodes();
   for(let i = 0; i<arr.length; i++){
     let currentAirport;
-    console.log('airport');
-    console.log(airports[0].node.value)
     for(let q = 0; q<airports.length; q++){
       if(airports[q].node.value === arr[i]){
         currentAirport = airports[q];
       }
     }
-    console.log('This is the currentAirport');
-
-    console.log(currentAirport)
     if(currentAirport){
       for (let edge of currentAirport.Edge ){
         if(edge.node.value){
@@ -47,4 +42,4 @@ graph.addEdge(Narnia,Naboo,250);
 graph.addEdge(Metroville,Naboo,26);
 graph.addEdge(Metroville,Arendelle,99);
 
-console.log(getEdges(graph,['Narnia','Arendelle']));
+console.log(getEdges(graph,['Narnia','Naboo']));
