@@ -30,12 +30,19 @@ class Graph{
       console.log('Node does not exist');
     } else {
       const adjacencies = this._adjacencyList.get(firstNode);
+      const secondWay = this._adjacencyList.get(secondNode);
       adjacencies.push(new Edge(secondNode,weight));
+      secondWay.push(new Edge(firstNode,weight));
     }
   }
 
   getNodes(){
-    return this._adjacencyList.entries();
+    let results = [];
+    let entries = this._adjacencyList.entries();
+    for (let node of entries){
+      results[results.length] = {node:node[0],Edge:node[1]};
+    }
+    return results;
   }
 
   getNeighbors(node){
@@ -74,19 +81,21 @@ class Graph{
 }
 
 
-const graph = new Graph();
-let dog = new Node('Spiky');
-let cat = new Node('Fluffy');
-let mouse = new Node('Jerry');
-graph.addNode(dog);
-graph.addNode(cat);
-graph.addNode(mouse);
+// const graph = new Graph();
+// let dog = new Node('Spiky');
+// let cat = new Node('Fluffy');
+// let mouse = new Node('Jerry');
+// graph.addNode(dog);
+// graph.addNode(cat);
+// graph.addNode(mouse);
 
 
-graph.addEdge(dog,cat);
-graph.addEdge(dog,mouse);
-graph.addEdge(cat,mouse);
+// graph.addEdge(dog,cat);
+// graph.addEdge(dog,mouse);
+// graph.addEdge(cat,mouse);
 
-console.log(graph);
-console.log(graph.breadthFirst(dog));
-console.log(graph.breadthFirst(cat));
+// console.log(graph);
+// // console.log(graph.breadthFirst(dog));
+// console.log(graph.getNodes());
+
+module.exports = {Graph,Node};
